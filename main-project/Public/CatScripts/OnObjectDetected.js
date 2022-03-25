@@ -3,8 +3,10 @@
 //@input Component.ScriptComponent onPointerEventScript
 //@input SceneObject pointerObjectTrackingHint = null
 //@input SceneObject goodAnimation = null
+//@input Component.AudioComponent goodSound = null
 //@input SceneObject badAnimation1 = null
 //@input SceneObject badAnimation2 = null
+//@input Component.AudioComponent badSound = null
 
 const DisableDetectionStates = false
 
@@ -47,6 +49,9 @@ function doPositiveReinforcement() {
     if (script.goodAnimation) script.goodAnimation.enabled = true
     else print("script.goodAnimation undefined")
     
+    if (script.goodSound && !script.goodSound.isPlaying())
+        script.goodSound.play(1)
+    
     positiveReinforcementTimeRemaining = PositiveReinforcementTime
     isDoingPositiveReinforcement = true
     isDoingNegativeReinforcement = false
@@ -58,6 +63,9 @@ function doNegativeReinforcement() {
     
     if (script.badAnimation2) script.badAnimation2.enabled = true
     else print("script.badAnimation2 undefined")
+    
+    if (script.badSound && !script.badSound.isPlaying())
+        script.badSound.play(1)
     
     negativeReinforcementTimeRemaining = NegativeReinforcementTime
     isDoingNegativeReinforcement = true

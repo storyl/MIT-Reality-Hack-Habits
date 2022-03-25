@@ -3,7 +3,7 @@
     "document_id": "yADeebs1O_oxL6UG8wxb",
     "original_document_id": "_h7WbBjfuuC4bJYKtM_r",
     "version": "29",
-    "lastChanged": "1648250412005",
+    "lastChanged": "1648251773870",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -737,6 +737,12 @@
                         "Cube 6"
                     ],
                     [
+                        "ArenaBuzzer"
+                    ],
+                    [
+                        "CatScripts"
+                    ],
+                    [
                         "CatScripts",
                         "FrameUpdated"
                     ],
@@ -824,6 +830,9 @@
                     [
                         "Fonts",
                         "OtomanopeeOne-Regular"
+                    ],
+                    [
+                        "FourAscendingBellArpeggios"
                     ],
                     [
                         "ML Models"
@@ -3570,6 +3579,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
+                },
+                {
+                    "resId": "625",
+                    "uid": "1648251690856107:300915",
+                    "name": "Files\/File666.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "626",
+                    "uid": "1648251697592937:311779",
+                    "name": "Files\/File667.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4657,7 +4682,10 @@
                 "206": "1648247002864005:184779",
                 "207": "1648247002867749:184783",
                 "208": "1648247002871358:184787",
-                "209": "1648247002874069:184789"
+                "209": "1648247002874069:184789",
+                "210": "1648251619374880:298774",
+                "211": "1648251720226489:323148",
+                "212": "1648251753399193:345526"
             }
         },
         "LayerComponent": {
@@ -5907,6 +5935,14 @@
                 {
                     "k": "665",
                     "v": "Files\/File665.pvr"
+                },
+                {
+                    "k": "666",
+                    "v": "Files\/File666.mp3"
+                },
+                {
+                    "k": "667",
+                    "v": "Files\/File667.mp3"
                 }
             ]
         },
@@ -6481,6 +6517,14 @@
                     {
                         "k": "26716",
                         "v": "..\/AdditionalFiles\/220325_1821--bad-cat\/Materials\/Material.lsmat"
+                    },
+                    {
+                        "k": "26717",
+                        "v": "ArenaBuzzer.mp3"
+                    },
+                    {
+                        "k": "26718",
+                        "v": "FourAscendingBellArpeggios.mp3"
                     }
                 ],
                 "hashes": [
@@ -6574,7 +6618,7 @@
                     },
                     {
                         "k": "7806",
-                        "v": "58cb9f81f1ebc6fa49118c92aa1e6d80"
+                        "v": "e8b7c5ea2a0e833ffba41ba207985ec2"
                     },
                     {
                         "k": "7808",
@@ -6638,27 +6682,27 @@
                     },
                     {
                         "k": "7834",
-                        "v": "a850fcdeebe846404da3a8369dc8277f"
+                        "v": "d12b4f32c0435ee44751768818d10271"
                     },
                     {
                         "k": "7835",
-                        "v": "76d17fc8a86de96d7ce014631706b3cd"
+                        "v": "24f5f86317b28b3bb343c353778c6bc9"
                     },
                     {
                         "k": "7836",
-                        "v": "9779d7bc7cd37a26c377915de1e4bf2c"
+                        "v": "26cb9b01c3c8c1ed5108046f67e25134"
                     },
                     {
                         "k": "7837",
-                        "v": "9bbb2c3d6c95d61f5872117ecfceba3e"
+                        "v": "fd74016428f9a8aad28215a7e68f0eb6"
                     },
                     {
                         "k": "7838",
-                        "v": "df70308b823e304b5e95fb0addf6c23d"
+                        "v": "f1fc7f5c05f1dc9776b75bec95ccb001"
                     },
                     {
                         "k": "7839",
-                        "v": "5fabbe62adfceae30e09bd89f95566a5"
+                        "v": "3f6d8b94c637ba1c25aecd83c7165877"
                     },
                     {
                         "k": "7840",
@@ -6742,27 +6786,27 @@
                     },
                     {
                         "k": "11265",
-                        "v": "8af674c7e8952aa685c49fb196ec57d2"
+                        "v": "5d50056428ffd07fafaac5e0e5572714"
                     },
                     {
                         "k": "11266",
-                        "v": "2a5ea30b05937d8f8104ee72198a9e83"
+                        "v": "e2a0f726cf37adab615db7888655ba52"
                     },
                     {
                         "k": "11267",
-                        "v": "b914edc665496b8100346606be848b3f"
+                        "v": "5237f4109e74763d500f642c77cd56c5"
                     },
                     {
                         "k": "11268",
-                        "v": "c516dc77e685fb1b5e1dcc35ff7424a5"
+                        "v": "afab7b09e09161a9195206c594e439a0"
                     },
                     {
                         "k": "11269",
-                        "v": "146f15c463bd3befb9045ac84ab742dc"
+                        "v": "a510ee856bc259281f54843f53b2ec43"
                     },
                     {
                         "k": "11270",
-                        "v": "4a1e870af3c1612a1e80a9cbba9c9b94"
+                        "v": "5b013e36bb37f22720b4d15e6473d453"
                     },
                     {
                         "k": "11271",
@@ -6818,27 +6862,27 @@
                     },
                     {
                         "k": "11285",
-                        "v": "729db90e3c47446a6d2a3a08832791f1"
+                        "v": "e4a96e606a68d2556cb25b05b52eb5f3"
                     },
                     {
                         "k": "11286",
-                        "v": "1c9b5f05d3bd8cff2f5aabd741fcb39e"
+                        "v": "c1951b46fa6b092e3d9f0dfaea76e5d5"
                     },
                     {
                         "k": "11287",
-                        "v": "3eba245ebe9b140a102fcbefa5cf97da"
+                        "v": "2d64522e1d764b4585484ac27b22cba4"
                     },
                     {
                         "k": "11288",
-                        "v": "456f8f28cb920dea9da4e90946f98ae0"
+                        "v": "488567c81a4eb14f864b184631764d6b"
                     },
                     {
                         "k": "11289",
-                        "v": "acc9b82d4673c2a12d175660208d7681"
+                        "v": "987f567bcdbb63ef7f2298855b3a0ad6"
                     },
                     {
                         "k": "11290",
-                        "v": "f737c532db887bff26efb55f38b3c0fe"
+                        "v": "7092fae9244c5783e22b8ee6803ed796"
                     },
                     {
                         "k": "11291",
@@ -6850,11 +6894,11 @@
                     },
                     {
                         "k": "11293",
-                        "v": "f9994e578105052ec7a43e4a72536197"
+                        "v": "bbb0ef3f22250a2826adfb87182bde4f"
                     },
                     {
                         "k": "11294",
-                        "v": "ed2b3d9c54b2dd8541ae5e1c438ce69c"
+                        "v": "1e2bc1d1a90dcc5306e6093078f45fde"
                     },
                     {
                         "k": "11295",
@@ -7138,7 +7182,7 @@
                     },
                     {
                         "k": "26664",
-                        "v": "90723484f8f4162f8a8453df0d8cd7a7"
+                        "v": "53b9e7830dce70e4dc611fabdb2e5646"
                     },
                     {
                         "k": "26667",
@@ -7303,14 +7347,22 @@
                     {
                         "k": "26716",
                         "v": "d501b1b3ed1045191a3eee51dc914138"
+                    },
+                    {
+                        "k": "26717",
+                        "v": "fd0336ca3c13c23b87285214a60f3d0c"
+                    },
+                    {
+                        "k": "26718",
+                        "v": "2915beb3d17ea21c7dd7492cc92a9986"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-03-25T18:23:22",
+                        "lastModified": "2022-03-25T19:41:37",
                         "name": "Public",
-                        "hash": "56ab739e6486337dd349abb0b374a675",
+                        "hash": "e07edd239ff5d1ca82e63f48355a2867",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -7352,6 +7404,13 @@
                                 "lastModified": "2022-03-25T18:22:11",
                                 "name": "220325_1821--idle-cat.fbx",
                                 "hash": "1f38b2b3f01cfdf82fa4ef0c55f51d5d",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-03-25T19:25:04",
+                                "name": "ArenaBuzzer.mp3",
+                                "hash": "fd0336ca3c13c23b87285214a60f3d0c",
                                 "children": ""
                             },
                             {
@@ -7558,6 +7617,13 @@
                             },
                             {
                                 "isFolder": "false",
+                                "lastModified": "2022-03-25T19:25:04",
+                                "name": "FourAscendingBellArpeggios.mp3",
+                                "hash": "2915beb3d17ea21c7dd7492cc92a9986",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
                                 "lastModified": "2022-03-25T18:23:11",
                                 "name": "Material 2.png",
                                 "hash": "9efc8df724db97c089238f5a1da689e1",
@@ -7579,113 +7645,113 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-25T18:56:37",
+                                "lastModified": "2022-03-25T19:20:06",
                                 "name": "Materials",
-                                "hash": "d2e4bdafe33dca3722c0e56ccfe2dc26",
+                                "hash": "28aab78aee243550527e562dbec23894",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:35",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Bottle Counter Material.lsmat",
-                                        "hash": "359b502f0ecfb216acf30cfc298b50f7",
+                                        "hash": "2a5ea30b05937d8f8104ee72198a9e83",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:35",
+                                        "lastModified": "2022-03-25T19:20:04",
                                         "name": "Bottle Icon Material.lsmat",
-                                        "hash": "fd22e15cb417003e43c20e018aff3e96",
+                                        "hash": "5fabbe62adfceae30e09bd89f95566a5",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:37",
+                                        "lastModified": "2022-03-25T19:20:06",
                                         "name": "Bottle Photo Material.lsmat",
-                                        "hash": "6bb2ec97fec07dc68074e91ff0e99adf",
+                                        "hash": "acc9b82d4673c2a12d175660208d7681",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:37",
+                                        "lastModified": "2022-03-25T19:20:06",
                                         "name": "Car Counter Material.lsmat",
-                                        "hash": "2ff2f6d874a7bbb4065797520540319e",
+                                        "hash": "ed2b3d9c54b2dd8541ae5e1c438ce69c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:37",
+                                        "lastModified": "2022-03-25T19:20:06",
                                         "name": "Car Icon Material.lsmat",
-                                        "hash": "725aec33b8fb32974a6c7d89a38e074e",
+                                        "hash": "f9994e578105052ec7a43e4a72536197",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:37",
+                                        "lastModified": "2022-03-25T19:20:06",
                                         "name": "Car Photo Material.lsmat",
-                                        "hash": "cae29aec9dc96cfc88654d413e2f8a16",
+                                        "hash": "f737c532db887bff26efb55f38b3c0fe",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:35",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Cat Counter Material.lsmat",
-                                        "hash": "5511a881a60a7ff9a598399aafde2844",
+                                        "hash": "8af674c7e8952aa685c49fb196ec57d2",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:35",
+                                        "lastModified": "2022-03-25T19:20:04",
                                         "name": "Cat Icon Material.lsmat",
-                                        "hash": "3b4e9acfbad855dd041be168abfda564",
+                                        "hash": "a850fcdeebe846404da3a8369dc8277f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Cat Photo Material.lsmat",
-                                        "hash": "2502a3be1e36112ab70668075a25f1c4",
+                                        "hash": "729db90e3c47446a6d2a3a08832791f1",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Cup Counter Material.lsmat",
-                                        "hash": "86adbbcd7aad5e75b6cf5ea78ba1fad8",
+                                        "hash": "146f15c463bd3befb9045ac84ab742dc",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:35",
+                                        "lastModified": "2022-03-25T19:20:04",
                                         "name": "Cup Icon Material.lsmat",
-                                        "hash": "817cc7dbcc450bc73b5c14671875e37a",
+                                        "hash": "9779d7bc7cd37a26c377915de1e4bf2c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Cup Photo Material.lsmat",
-                                        "hash": "d2d544f899636e2b60a551e83d7c66b5",
+                                        "hash": "1c9b5f05d3bd8cff2f5aabd741fcb39e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Dog Counter Material.lsmat",
-                                        "hash": "466bd2e748871206b484a40704397845",
+                                        "hash": "4a1e870af3c1612a1e80a9cbba9c9b94",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:35",
+                                        "lastModified": "2022-03-25T19:20:04",
                                         "name": "Dog Icon Material.lsmat",
-                                        "hash": "33777354667f4a9b431d4055489ec9c9",
+                                        "hash": "76d17fc8a86de96d7ce014631706b3cd",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Dog Photo Material.lsmat",
-                                        "hash": "9d28e858c32140a030acb5552500ba90",
+                                        "hash": "58cb9f81f1ebc6fa49118c92aa1e6d80",
                                         "children": ""
                                     },
                                     {
@@ -7697,51 +7763,51 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:37",
+                                        "lastModified": "2022-03-25T19:20:06",
                                         "name": "Hand Outline.lsmat",
-                                        "hash": "94527a7c75796a7921aa641e6b88659a",
+                                        "hash": "90723484f8f4162f8a8453df0d8cd7a7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Plant Counter Material.lsmat",
-                                        "hash": "ec2b03c3c3b7fb50959acf09d0740608",
+                                        "hash": "b914edc665496b8100346606be848b3f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:35",
+                                        "lastModified": "2022-03-25T19:20:04",
                                         "name": "Plant Icon Material.lsmat",
-                                        "hash": "2a94ed4005c3dc8bbe3ae4b1d6c937ca",
+                                        "hash": "df70308b823e304b5e95fb0addf6c23d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "Plant Photo Material.lsmat",
-                                        "hash": "982dc1e6f4c92d3d61063118791576c0",
+                                        "hash": "3eba245ebe9b140a102fcbefa5cf97da",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "TV Counter Material.lsmat",
-                                        "hash": "2e94c8de67b6312a51908cc1abd572fd",
+                                        "hash": "c516dc77e685fb1b5e1dcc35ff7424a5",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:35",
+                                        "lastModified": "2022-03-25T19:20:04",
                                         "name": "TV Icon Material.lsmat",
-                                        "hash": "087dae9d775eda8ff5b8a5a1e61e4e72",
+                                        "hash": "9bbb2c3d6c95d61f5872117ecfceba3e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T18:56:36",
+                                        "lastModified": "2022-03-25T19:20:05",
                                         "name": "TV Photo Material.lsmat",
-                                        "hash": "249f5f0f4292bfa5d183eeb2f6cd1a69",
+                                        "hash": "456f8f28cb920dea9da4e90946f98ae0",
                                         "children": ""
                                     }
                                 ]
@@ -18760,20 +18826,42 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "ArenaBuzzer",
+                        "type": "5",
+                        "subtype": "0",
+                        "resourceId": "625",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1648251690856107:300915",
+                        "fileId": "666",
+                        "originalId": "18446744073709551615",
+                        "publicId": "26717",
+                        "source": "C:\/Users\/andyf\/-\/code\/MIT-Reality-Hack-Habits\/sounds\/ArenaBuzzer.mp3",
+                        "additional": ""
+                    },
+                    {
+                        "name": "FourAscendingBellArpeggios",
+                        "type": "5",
+                        "subtype": "0",
+                        "resourceId": "626",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1648251697592937:311779",
+                        "fileId": "667",
+                        "originalId": "18446744073709551615",
+                        "publicId": "26718",
+                        "source": "C:\/Users\/andyf\/-\/code\/MIT-Reality-Hack-Habits\/sounds\/FourAscendingBellArpeggios.mp3",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1648155276648599:1281913",
-                        "path_list": [
-                            "CatScripts",
-                            "OnObjectDetected"
-                        ]
-                    }
+                "objects": [
+                    "1648251753399193:345526"
                 ]
             }
         },
