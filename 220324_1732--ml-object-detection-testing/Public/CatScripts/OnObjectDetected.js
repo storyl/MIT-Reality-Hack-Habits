@@ -3,6 +3,7 @@
 //@input SceneObject goodAnimation = null
 //@input SceneObject badAnimation = null
 
+const CupClass = 1;
 const CatClass = 3;
 const DogClass = 5;
 
@@ -19,7 +20,7 @@ function onDetectionsUpdated(results) {
         var result = results[i]
         if (result) {
             print(i + ": box = " + result.box)
-            print("   score = " + result.score)
+//            print("   score = " + result.score)
             print("   class = " + result.class)
             isObjectDetected = true;
             detectedObjectClass = result.class
@@ -31,9 +32,12 @@ function onDetectionsUpdated(results) {
 
     if (script.goodAnimation) {
         script.goodAnimation.enabled = false
-        if (isObjectDetected && detectedObjectClass === CatClass) {
+        if (isObjectDetected && (detectedObjectClass === CatClass || detectedObjectClass === CupClass)) {
             script.goodAnimation.enabled = true
         }
+    }
+    else {
+        print("script.goodAnimation undefined")
     }
     
     if (script.badAnimation) {
@@ -41,6 +45,9 @@ function onDetectionsUpdated(results) {
         if (isObjectDetected && detectedObjectClass === DogClass) {
             script.badAnimation.enabled = true
         }
+    }
+    else {
+        print("script.badAnimation undefined")
     }
 }
 
