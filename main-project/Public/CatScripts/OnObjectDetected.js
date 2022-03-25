@@ -15,6 +15,8 @@ const BottleClass = 7
 
 const PointEndEventDelay = 5
 const ObjectDetectionEndEventDelay = 5
+const PositiveReinforcementTime = 10
+const NegativeReinforcementTime = 9
 
 var pointEndEventDelayRemaining = 0
 var isPointing = false
@@ -24,22 +26,30 @@ var objectWasDetected = false
 var isObjectDetectionOn = false
 var detectedObjectClass = -1
 
+var positiveReinforcementTimeRemaining = 0
+var isDoingPositiveReinforcement = false
+
+var negativeReinforcementTimeRemaining = 0
+var isDoingNegativeReinforcement = false
+
 
 function resetReinforcements() {
-    if (script.goodAnimation) script.goodAnimation.enabled = false
-    if (script.badAnimation1) script.badAnimation1.enabled = false
-    if (script.badAnimation2) script.badAnimation2.enabled = false
+    if (!isDoingPositiveReinforcement) {
+        if (script.goodAnimation) script.goodAnimation.enabled = false    
+    }
+    if (!isDoingNegativeReinforcement) {
+        if (script.badAnimation1) script.badAnimation1.enabled = false
+        if (script.badAnimation2) script.badAnimation2.enabled = false
+    }
 }
 
 function doPositiveReinforcement() {
-    if (script.goodAnimation) {
-        if (objectWasDetected && detectedObjectClass === BottleClass) {
-            script.goodAnimation.enabled = true
-        }
-    }
-    else {
-        print("script.goodAnimation undefined")
-    }
+    if (script.goodAnimation) script.goodAnimation.enabled = true
+    else print("script.goodAnimation undefined")
+    
+    positiveReinforcementTimeRemaining = PositiveReinforcementTime
+    isDoingPositiveReinforcement = true
+    isDoingNegativeReinforcement = false
 }
 
 function doNegativeReinforcement() {
@@ -48,6 +58,29 @@ function doNegativeReinforcement() {
     
     if (script.badAnimation2) script.badAnimation2.enabled = true
     else print("script.badAnimation2 undefined")
+    
+    negativeReinforcementTimeRemaining = NegativeReinforcementTime
+    isDoingNegativeReinforcement = true
+    isDoingPositiveReinforcement = false
+}
+
+function continueReinforcements() {
+    if (isDoingPositiveReinforcement) {
+        if (positiveReinforcementTimeRemaining > 0) {
+            positiveReinforcementTimeRemaining -= getDeltaTime()
+            if (positiveReinforcementTimeRemaining <= 0) {
+                isDoingPositiveReinforcement = false
+            }
+        }
+    }
+    if (isDoingNegativeReinforcement) {
+        if (negativeReinforcementTimeRemaining > 0) {
+            negativeReinforcementTimeRemaining -= getDeltaTime()
+            if (negativeReinforcementTimeRemaining <= 0) {
+                isDoingNegativeReinforcement = false
+            }
+        }
+    }
 }
 
 
@@ -65,6 +98,7 @@ function updateObjectDetectionState() {
             doPositiveReinforcement()
         }
     }
+    continueReinforcements()
 
     if (script.pointerObjectTrackingHint) {
         script.pointerObjectTrackingHint.enabled = !isObjectDetectionOn
