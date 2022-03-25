@@ -3,7 +3,7 @@
     "document_id": "yADeebs1O_oxL6UG8wxb",
     "original_document_id": "_h7WbBjfuuC4bJYKtM_r",
     "version": "29",
-    "lastChanged": "1648234812757",
+    "lastChanged": "1648237442007",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -1017,6 +1017,9 @@
                         "Hand Mask Render Target"
                     ],
                     [
+                        "Scripts"
+                    ],
+                    [
                         "Scripts",
                         "BBoxBuilder"
                     ],
@@ -1346,7 +1349,11 @@
                     "1648218391602590:60538",
                     "1648218391619830:62474",
                     "1648221251987433:99245",
-                    "1648221252090863:99674"
+                    "1648221252091624:99676",
+                    "1648221252121650:99843",
+                    "1648221252675025:104215",
+                    "1648221252677932:104221",
+                    "1648221252800219:104986"
                 ]
             ],
             "selectionSetList": ""
@@ -6599,7 +6606,7 @@
                     },
                     {
                         "k": "7806",
-                        "v": "906d8c49a5fc13e9e8f676c1f5c49690"
+                        "v": "adea53b92b3fe154b52bde33d4303e19"
                     },
                     {
                         "k": "7808",
@@ -6663,27 +6670,27 @@
                     },
                     {
                         "k": "7834",
-                        "v": "90de054201b7ec50e18a88c185d31f5c"
+                        "v": "7d636c991e3eecf993903dbd683f5861"
                     },
                     {
                         "k": "7835",
-                        "v": "df45237c6317a4097e0432a2b0ca06e9"
+                        "v": "47d439e88c458d5eadfd4606ac681fb5"
                     },
                     {
                         "k": "7836",
-                        "v": "725db1655be9e57ab9552aa6771a7707"
+                        "v": "712ff2cdb7edb764494efc4ee4d4d294"
                     },
                     {
                         "k": "7837",
-                        "v": "9cd422c54b6de7d1e748bf1b1429fd82"
+                        "v": "604e2ffb9f266f9ab0361bbf9602ab26"
                     },
                     {
                         "k": "7838",
-                        "v": "c7f4af8687d42a0aeed5b7595198d88b"
+                        "v": "f5f13f5a211520451d3c2771d68bf154"
                     },
                     {
                         "k": "7839",
-                        "v": "d0e87581a620ee4ead3f70cd74e71bdc"
+                        "v": "a79d1a077d1de3bf5374388c837cc8b5"
                     },
                     {
                         "k": "7840",
@@ -6767,27 +6774,27 @@
                     },
                     {
                         "k": "11265",
-                        "v": "645a31765a7fe31fe029b51f8d819334"
+                        "v": "f4bf3eacc1e121f044335cb617a7a72c"
                     },
                     {
                         "k": "11266",
-                        "v": "b6e1ce4bf71df79df07e9c3580ccac78"
+                        "v": "9de7af5a75c3eb052d7750cc20fbd42f"
                     },
                     {
                         "k": "11267",
-                        "v": "1b6c58488f3d8e61594e82c20bb7a20a"
+                        "v": "73d3b797d7fdd2514a40f35f53741fbc"
                     },
                     {
                         "k": "11268",
-                        "v": "c1a9a7f253826fc832a43d4eadac2d0e"
+                        "v": "dd87d9e4ee869db5bcfa56cfeeb051e1"
                     },
                     {
                         "k": "11269",
-                        "v": "d5ee23e55e3070be3976fcd5df3a4a98"
+                        "v": "18e4a65da37eff196a8cd816fb35fc2c"
                     },
                     {
                         "k": "11270",
-                        "v": "9cbd6488979b57dae30ca800a8342293"
+                        "v": "4887be6dbd6d5afebcf2760931c9af55"
                     },
                     {
                         "k": "11271",
@@ -6843,27 +6850,27 @@
                     },
                     {
                         "k": "11285",
-                        "v": "4ecc1d91fc9e3fbf32165a92ef7c2883"
+                        "v": "569c1dd44d53c447f6ec14baba3df213"
                     },
                     {
                         "k": "11286",
-                        "v": "c9d5c7c5b77ee77a21c20b7f7e80b6e4"
+                        "v": "310312721ccea9f1c2df4a7086f671e8"
                     },
                     {
                         "k": "11287",
-                        "v": "82ce0e59e0facb03d1d8d927b8d4401d"
+                        "v": "d513f342d5823d567373a857852ebdd4"
                     },
                     {
                         "k": "11288",
-                        "v": "7a78a01781def301ea49aa40877b4ebd"
+                        "v": "daec8617984f988d21cd65308f277161"
                     },
                     {
                         "k": "11289",
-                        "v": "4aed121cc2146bd0fe82fde128c349a6"
+                        "v": "14f11b5b2e5f09386bdc5acce1cc224e"
                     },
                     {
                         "k": "11290",
-                        "v": "a33062146ee545aaf9c5b68f62ff12ca"
+                        "v": "1ebd897337a952833d776f74ffe00623"
                     },
                     {
                         "k": "11291",
@@ -6875,11 +6882,11 @@
                     },
                     {
                         "k": "11293",
-                        "v": "4350e4b06918cb4735b82d01389f8a5a"
+                        "v": "be0db2b94a5f1e5669c73ace41bc027a"
                     },
                     {
                         "k": "11294",
-                        "v": "d8e2066f6c98913e616c03f9494b08a0"
+                        "v": "b07bb0aa3215a663dec71a89a585d2db"
                     },
                     {
                         "k": "11295",
@@ -6999,7 +7006,7 @@
                     },
                     {
                         "k": "26611",
-                        "v": "90cf3823142507b80f1a8535c020808e"
+                        "v": "1089ac70683b3afcc3be1e3bd2e89cb7"
                     },
                     {
                         "k": "26612",
@@ -7163,7 +7170,7 @@
                     },
                     {
                         "k": "26664",
-                        "v": "570315b89db8d65423eb2da4f2104f9d"
+                        "v": "87e17caea6b40463a5e04cb72ebc2129"
                     },
                     {
                         "k": "26667",
@@ -7199,7 +7206,7 @@
                     },
                     {
                         "k": "26677",
-                        "v": "307fd0ce4e1c3443d8ffee6d4fa7cdc8"
+                        "v": "9a60b78bc0b64d469ac7b1d54decd1c3"
                     }
                 ],
                 "publicState": {
@@ -7207,7 +7214,7 @@
                         "isFolder": "true",
                         "lastModified": "2022-03-25T11:48:09",
                         "name": "Public",
-                        "hash": "418b8fa0e026d91911a927d32373a151",
+                        "hash": "4119ee9a556967c2fe35f27b2c2e3fd3",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -7239,9 +7246,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-25T14:59:21",
+                                "lastModified": "2022-03-25T15:43:15",
                                 "name": "CatScripts",
-                                "hash": "f39cff568dd29ccc2d4bc91e3c77cab1",
+                                "hash": "b199699874e65ba5a74cb045dadade80",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7266,9 +7273,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:59:21",
+                                        "lastModified": "2022-03-25T15:43:15",
                                         "name": "OnObjectDetected.js",
-                                        "hash": "90cf3823142507b80f1a8535c020808e",
+                                        "hash": "1089ac70683b3afcc3be1e3bd2e89cb7",
                                         "children": ""
                                     },
                                     {
@@ -7441,113 +7448,113 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-25T14:53:54",
+                                "lastModified": "2022-03-25T15:00:02",
                                 "name": "Materials",
-                                "hash": "c8c490094b3af91bfc49319e25eedc4e",
+                                "hash": "fc9f5fa67c18c88f73375d40c9f6112b",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T15:00:00",
                                         "name": "Bottle Counter Material.lsmat",
-                                        "hash": "60b880df6cc33f8b0375f052a73ba9a7",
+                                        "hash": "b6e1ce4bf71df79df07e9c3580ccac78",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T15:00:00",
                                         "name": "Bottle Icon Material.lsmat",
-                                        "hash": "212b220ed32bbab290685bec4d832c2f",
+                                        "hash": "d0e87581a620ee4ead3f70cd74e71bdc",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:54",
+                                        "lastModified": "2022-03-25T15:00:01",
                                         "name": "Bottle Photo Material.lsmat",
-                                        "hash": "bd440f04abcb8d430a6ef94245c59e52",
+                                        "hash": "4aed121cc2146bd0fe82fde128c349a6",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:54",
+                                        "lastModified": "2022-03-25T15:00:02",
                                         "name": "Car Counter Material.lsmat",
-                                        "hash": "9bd41826d0f693894a6ad672d3c3b645",
+                                        "hash": "d8e2066f6c98913e616c03f9494b08a0",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:54",
+                                        "lastModified": "2022-03-25T15:00:02",
                                         "name": "Car Icon Material.lsmat",
-                                        "hash": "47ff0d86f47b2ad90fc820c25b988d48",
+                                        "hash": "4350e4b06918cb4735b82d01389f8a5a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:54",
+                                        "lastModified": "2022-03-25T15:00:02",
                                         "name": "Car Photo Material.lsmat",
-                                        "hash": "1e2684007f01c1f9387b821a74282854",
+                                        "hash": "a33062146ee545aaf9c5b68f62ff12ca",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T15:00:00",
                                         "name": "Cat Counter Material.lsmat",
-                                        "hash": "360b2ea15ba10db5e80e164d538db6be",
+                                        "hash": "645a31765a7fe31fe029b51f8d819334",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:51",
+                                        "lastModified": "2022-03-25T14:59:59",
                                         "name": "Cat Icon Material.lsmat",
-                                        "hash": "77cd63334f17321f53b96b0397724370",
+                                        "hash": "90de054201b7ec50e18a88c185d31f5c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:53",
+                                        "lastModified": "2022-03-25T15:00:01",
                                         "name": "Cat Photo Material.lsmat",
-                                        "hash": "7ee94fde192a43d198605086def7c9bb",
+                                        "hash": "4ecc1d91fc9e3fbf32165a92ef7c2883",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T15:00:00",
                                         "name": "Cup Counter Material.lsmat",
-                                        "hash": "2a9463133b686ee3605a02f4cac0691e",
+                                        "hash": "d5ee23e55e3070be3976fcd5df3a4a98",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T14:59:59",
                                         "name": "Cup Icon Material.lsmat",
-                                        "hash": "fe4d4c28ba84d35f5ea868e6579bb01d",
+                                        "hash": "725db1655be9e57ab9552aa6771a7707",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:53",
+                                        "lastModified": "2022-03-25T15:00:01",
                                         "name": "Cup Photo Material.lsmat",
-                                        "hash": "e01bf858e09446f81101992262d18d35",
+                                        "hash": "c9d5c7c5b77ee77a21c20b7f7e80b6e4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:53",
+                                        "lastModified": "2022-03-25T15:00:00",
                                         "name": "Dog Counter Material.lsmat",
-                                        "hash": "c5febb77fa4411075a7cab9c4b3780ff",
+                                        "hash": "9cbd6488979b57dae30ca800a8342293",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T14:59:59",
                                         "name": "Dog Icon Material.lsmat",
-                                        "hash": "e1b2d1cd9768b62d402522fac92ae776",
+                                        "hash": "df45237c6317a4097e0432a2b0ca06e9",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:53",
+                                        "lastModified": "2022-03-25T15:00:00",
                                         "name": "Dog Photo Material.lsmat",
-                                        "hash": "8defca394285589544dbcd73de8bb095",
+                                        "hash": "906d8c49a5fc13e9e8f676c1f5c49690",
                                         "children": ""
                                     },
                                     {
@@ -7559,51 +7566,51 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:54",
+                                        "lastModified": "2022-03-25T15:00:02",
                                         "name": "Hand Outline.lsmat",
-                                        "hash": "9a7c40686fc1b3c1e04682d0e58d1f29",
+                                        "hash": "570315b89db8d65423eb2da4f2104f9d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T15:00:00",
                                         "name": "Plant Counter Material.lsmat",
-                                        "hash": "096dfa537d11c867d2b0a449dfa34447",
+                                        "hash": "1b6c58488f3d8e61594e82c20bb7a20a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T14:59:59",
                                         "name": "Plant Icon Material.lsmat",
-                                        "hash": "88712ff6d866969b5bae94cfe745e2eb",
+                                        "hash": "c7f4af8687d42a0aeed5b7595198d88b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:53",
+                                        "lastModified": "2022-03-25T15:00:01",
                                         "name": "Plant Photo Material.lsmat",
-                                        "hash": "12ee616ab43e64c6a836fdf186dabf58",
+                                        "hash": "82ce0e59e0facb03d1d8d927b8d4401d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T15:00:00",
                                         "name": "TV Counter Material.lsmat",
-                                        "hash": "811be90f8819c833d6e4c181b8b93ef3",
+                                        "hash": "c1a9a7f253826fc832a43d4eadac2d0e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:52",
+                                        "lastModified": "2022-03-25T14:59:59",
                                         "name": "TV Icon Material.lsmat",
-                                        "hash": "a574676fef7ff98eb20b064b6dbc5f90",
+                                        "hash": "9cd422c54b6de7d1e748bf1b1429fd82",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T14:53:54",
+                                        "lastModified": "2022-03-25T15:00:01",
                                         "name": "TV Photo Material.lsmat",
-                                        "hash": "b8291b3ed5a49f82ec5f4d22efce04b0",
+                                        "hash": "7a78a01781def301ea49aa40877b4ebd",
                                         "children": ""
                                     }
                                 ]
@@ -7778,9 +7785,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-25T11:57:55",
+                                "lastModified": "2022-03-25T15:13:31",
                                 "name": "PointerScripts",
-                                "hash": "6257e834e2e93c2a4c8a9bf2e04947ad",
+                                "hash": "657e07992b504a4679704b2da868f0c0",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7791,9 +7798,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T11:57:55",
+                                        "lastModified": "2022-03-25T15:13:31",
                                         "name": "OnPointerEvent.js",
-                                        "hash": "307fd0ce4e1c3443d8ffee6d4fa7cdc8",
+                                        "hash": "9a60b78bc0b64d469ac7b1d54decd1c3",
                                         "children": ""
                                     }
                                 ]
@@ -18825,7 +18832,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1623969070259176:634793"
+                    "1623786700013098:179370"
                 ]
             }
         },

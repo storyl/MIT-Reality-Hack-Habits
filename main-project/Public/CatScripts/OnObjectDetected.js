@@ -1,16 +1,116 @@
 // -----JS CODE-----
 //@input Component.ScriptComponent mlOutputDecoderScript
+//@input Component.ScriptComponent onPointerEventScript
+//@input SceneObject pointerObjectTrackingHint = null
 //@input SceneObject goodAnimation = null
 //@input SceneObject badAnimation = null
 
-const CupClass = 1;
-const CatClass = 3;
-const DogClass = 5;
-const BottleClass = 7;
+const ForceBadDetection = false
+const ForceGoodDetection = false
+
+const CupClass = 1
+const CatClass = 3
+const DogClass = 5
+const BottleClass = 7
+
+const PointEndEventDelay = 5
+const ObjectDetectionEndEventDelay = 5
+
+var pointEndEventDelayRemaining = 0
+var isPointing = false
+
+var objectDetectEndEventDelayRemaining = 0
+var objectWasDetected = false
+var isObjectDetectionOn = false
+var detectedObjectClass = -1
+
+
+function updateObjectDetectionState() {
+    if (script.goodAnimation) {
+        script.goodAnimation.enabled = false
+        if (objectWasDetected && detectedObjectClass === BottleClass) {
+            script.goodAnimation.enabled = true
+        }
+        else if (ForceGoodDetection) {
+            script.goodAnimation.enabled = isPointing
+        }
+    }
+    else {
+        print("script.goodAnimation undefined")
+    }
+    
+    if (script.badAnimation) {
+        script.badAnimation.enabled = false
+        if (objectWasDetected && detectedObjectClass === CupClass) {
+            script.badAnimation.enabled = true
+        }
+        else if (ForceBadDetection) {
+            script.badAnimation.enabled = isPointing
+        }
+    }
+    else {
+        print("script.badAnimation undefined")
+    }
+    
+    if (script.pointerObjectTrackingHint) {
+        script.pointerObjectTrackingHint.enabled = !isObjectDetectionOn
+    }
+    else {
+        print("script.pointerObjectTrackingHint undefined")
+    }
+}
+
+function onFrameUpdateEvent(e) {
+    if (script.onPointerEventScript === undefined) {
+        print("onPointerEventScript is undefined")
+        return
+    }
+    
+    if (script.onPointerEventScript.api.isPointing) {
+        if (!isPointing) {
+            print("Setting isPointing = true")
+        }
+        isPointing = true
+        isObjectDetectionOn = true
+        pointEndEventDelayRemaining = PointEndEventDelay
+    }
+    else if (pointEndEventDelayRemaining > 0) {
+        pointEndEventDelayRemaining -= getDeltaTime()
+        if (pointEndEventDelayRemaining <= 0) {
+            print("point end delay expired")
+            print("Setting isPointing = false")
+            isPointing = false
+        }
+    }
+    
+    if (objectWasDetected || isPointing) {
+        isObjectDetectionOn = true
+        objectDetectEndEventDelayRemaining = ObjectDetectionEndEventDelay
+    }
+    else if (objectDetectEndEventDelayRemaining > 0) {
+        objectDetectEndEventDelayRemaining -= getDeltaTime()
+        if (objectDetectEndEventDelayRemaining <= 0) {
+            print("object detection delay expired")
+            isObjectDetectionOn = false
+            objectWasDetected = false
+        }
+    }
+    
+    updateObjectDetectionState()
+}
+
+var frameUpdateEvent = script.createEvent("UpdateEvent")
+frameUpdateEvent.bind(onFrameUpdateEvent)
+
 
 function onDetectionsUpdated(results) {
-    var isObjectDetected = false;  
-    var detectedObjectClass = 0;
+    if (!isPointing && !isObjectDetectionOn) {
+        return
+    }
+//    print("isObjectDetectionOn = " + isObjectDetectionOn)
+    print("Doing object detection handling ...")
+    
+    var isObjectDetected = false
     
 //    print("onDetectionsUpdated called")
     var resultsKeys = Object.keys(results)
@@ -27,29 +127,12 @@ function onDetectionsUpdated(results) {
             detectedObjectClass = result.class
         }
         else {
+            isObjectDetected = false
 //            print(i + ": undefined")
         }
     }
-
-    if (script.goodAnimation) {
-        script.goodAnimation.enabled = false
-        if (isObjectDetected && detectedObjectClass === BottleClass) {
-            script.goodAnimation.enabled = true
-        }
-    }
-    else {
-        print("script.goodAnimation undefined")
-    }
     
-    if (script.badAnimation) {
-        script.badAnimation.enabled = false
-        if (isObjectDetected && detectedObjectClass === CupClass) {
-            script.badAnimation.enabled = true
-        }
-    }
-    else {
-        print("script.badAnimation undefined")
-    }
+    objectWasDetected = isObjectDetected
 }
 
 if (script.mlOutputDecoderScript && script.mlOutputDecoderScript.api.addCallback) {
