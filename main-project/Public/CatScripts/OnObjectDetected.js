@@ -3,9 +3,10 @@
 //@input Component.ScriptComponent onPointerEventScript
 //@input SceneObject pointerObjectTrackingHint = null
 //@input SceneObject goodAnimation = null
-//@input SceneObject badAnimation = null
+//@input SceneObject badAnimation1 = null
+//@input SceneObject badAnimation2 = null
 
-const DisableDetectionStates = true
+const DisableDetectionStates = false
 
 const CupClass = 1
 const CatClass = 3
@@ -24,43 +25,53 @@ var isObjectDetectionOn = false
 var detectedObjectClass = -1
 
 
-function updateObjectDetectionState() {
-    if (DisableDetectionStates) {
-        return
-    }
-    
+function resetReinforcements() {
+    if (script.goodAnimation) script.goodAnimation.enabled = false
+    if (script.badAnimation1) script.badAnimation1.enabled = false
+    if (script.badAnimation2) script.badAnimation2.enabled = false
+}
+
+function doPositiveReinforcement() {
     if (script.goodAnimation) {
-        script.goodAnimation.enabled = false
         if (objectWasDetected && detectedObjectClass === BottleClass) {
             script.goodAnimation.enabled = true
-        }
-        else if (ForceGoodDetection) {
-            script.goodAnimation.enabled = isPointing
         }
     }
     else {
         print("script.goodAnimation undefined")
     }
+}
+
+function doNegativeReinforcement() {
+    if (script.badAnimation1) script.badAnimation1.enabled = true
+    else print("script.badAnimation1 undefined")
     
-    if (script.badAnimation) {
-        script.badAnimation.enabled = false
-        if (objectWasDetected && detectedObjectClass === CupClass) {
-            script.badAnimation.enabled = true
+    if (script.badAnimation2) script.badAnimation2.enabled = true
+    else print("script.badAnimation2 undefined")
+}
+
+
+function updateObjectDetectionState() {
+    if (DisableDetectionStates) {
+        return
+    }
+    
+    resetReinforcements()
+    if (objectWasDetected) {
+        if (detectedObjectClass === CupClass) {
+            doNegativeReinforcement()
         }
-        else if (ForceBadDetection) {
-            script.badAnimation.enabled = isPointing
+        else if (detectedObjectClass === BottleClass) {
+            doPositiveReinforcement()
         }
     }
-    else {
-        print("script.badAnimation undefined")
-    }
-    
+
     if (script.pointerObjectTrackingHint) {
         script.pointerObjectTrackingHint.enabled = !isObjectDetectionOn
     }
     else {
         print("script.pointerObjectTrackingHint undefined")
-    }
+    }  
 }
 
 function onFrameUpdateEvent(e) {
