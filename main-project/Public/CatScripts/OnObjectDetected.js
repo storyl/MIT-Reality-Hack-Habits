@@ -5,8 +5,7 @@
 //@input SceneObject goodAnimation = null
 //@input SceneObject badAnimation = null
 
-const ForceBadDetection = false
-const ForceGoodDetection = false
+const DisableDetectionStates = true
 
 const CupClass = 1
 const CatClass = 3
@@ -26,6 +25,10 @@ var detectedObjectClass = -1
 
 
 function updateObjectDetectionState() {
+    if (DisableDetectionStates) {
+        return
+    }
+    
     if (script.goodAnimation) {
         script.goodAnimation.enabled = false
         if (objectWasDetected && detectedObjectClass === BottleClass) {
