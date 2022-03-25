@@ -19,9 +19,9 @@ function onDetectionsUpdated(results) {
     for (var i = 0; i < resultsKeys.length; i += 1) {
         var result = results[i]
         if (result) {
-            print(i + ": box = " + result.box)
+//            print(i + ": box = " + result.box)
 //            print("   score = " + result.score)
-            print("   class = " + result.class)
+//            print("   class = " + result.class)
             isObjectDetected = true;
             detectedObjectClass = result.class
         }
