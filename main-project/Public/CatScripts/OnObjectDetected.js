@@ -6,6 +6,7 @@
 const CupClass = 1;
 const CatClass = 3;
 const DogClass = 5;
+const BottleClass = 7;
 
 function onDetectionsUpdated(results) {
     var isObjectDetected = false;  
@@ -19,10 +20,10 @@ function onDetectionsUpdated(results) {
     for (var i = 0; i < resultsKeys.length; i += 1) {
         var result = results[i]
         if (result) {
-            print(i + ": box = " + result.box)
-            print("   score = " + result.score)
-            print("   class = " + result.class)
-            isObjectDetected = true;
+//            print(i + ": box = " + result.box)
+//            print("   score = " + result.score)
+//            print("   class = " + result.class)
+//            isObjectDetected = true;
             detectedObjectClass = result.class
         }
         else {
@@ -32,7 +33,7 @@ function onDetectionsUpdated(results) {
 
     if (script.goodAnimation) {
         script.goodAnimation.enabled = false
-        if (isObjectDetected && (detectedObjectClass === CatClass || detectedObjectClass === CupClass)) {
+        if (isObjectDetected && detectedObjectClass === BottleClass) {
             script.goodAnimation.enabled = true
         }
     }
@@ -42,7 +43,7 @@ function onDetectionsUpdated(results) {
     
     if (script.badAnimation) {
         script.badAnimation.enabled = false
-        if (isObjectDetected && detectedObjectClass === DogClass) {
+        if (isObjectDetected && detectedObjectClass === CupClass) {
             script.badAnimation.enabled = true
         }
     }
