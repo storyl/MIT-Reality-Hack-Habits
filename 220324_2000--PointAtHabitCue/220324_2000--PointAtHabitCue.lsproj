@@ -3,7 +3,7 @@
     "document_id": "ROb5JLRRjhzEbdVyvxAu",
     "original_document_id": "Q1qI0r9O1Ei_3KgV9Kq5",
     "version": "29",
-    "lastChanged": "1648218322287",
+    "lastChanged": "1648220658707",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -55,6 +55,9 @@
                     ],
                     [
                         "FingerPointingPrefab"
+                    ],
+                    [
+                        "FingerPointingPrefab2"
                     ],
                     [
                         "Fireworks VFX Resources"
@@ -1430,6 +1433,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
+                },
+                {
+                    "resId": "371",
+                    "uid": "1648220633502558:53558",
+                    "name": "Prefab",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2662,6 +2673,14 @@
                 {
                     "k": "598",
                     "v": "Files\/File598.oprfb"
+                },
+                {
+                    "k": "599",
+                    "v": "Files\/File599.oprfb"
+                },
+                {
+                    "k": "600",
+                    "v": "Files\/File600.oprfb"
                 }
             ]
         },
@@ -2964,6 +2983,10 @@
                     {
                         "k": "27312",
                         "v": "FingerPointingPrefab.oprfb"
+                    },
+                    {
+                        "k": "27313",
+                        "v": "FingerPointingPrefab2.oprfb"
                     }
                 ],
                 "hashes": [
@@ -3773,7 +3796,7 @@
                     },
                     {
                         "k": "22908",
-                        "v": "ed6cfaf94903e9e88fc72e7dbbc00999"
+                        "v": "24af0d4c5e7f7c2c40931b6962522058"
                     },
                     {
                         "k": "22909",
@@ -4041,27 +4064,27 @@
                     },
                     {
                         "k": "25940",
-                        "v": "ad720b53acfc368c97c1c180bd0dba3a"
+                        "v": "2d89496d17f558bcb843913633931d1b"
                     },
                     {
                         "k": "25941",
-                        "v": "31ba5aace5acaa7d491f03bd016e13dd"
+                        "v": "e6583115a4247129a11d028ccb31d843"
                     },
                     {
                         "k": "25942",
-                        "v": "24bdd24ef6ee9a15370f5ac123daa974"
+                        "v": "472eb27cabcd63eca80c53ee4f11b99d"
                     },
                     {
                         "k": "25943",
-                        "v": "bb46eb978aa7be7064ceeaaeded04158"
+                        "v": "b0aadc34a8468a093863bd29854f253b"
                     },
                     {
                         "k": "25944",
-                        "v": "02ed44b7f2ba5873747e22ec119aa670"
+                        "v": "048ee42ab8ebddb2dd8a3241edf376ef"
                     },
                     {
                         "k": "25945",
-                        "v": "c613edd694c992317f604486f79a258c"
+                        "v": "2aa96c21f6b230c8b09253166cf0b8ae"
                     },
                     {
                         "k": "27285",
@@ -4089,7 +4112,7 @@
                     },
                     {
                         "k": "27294",
-                        "v": "88758b16d1ca5b82881e34627ece0e31"
+                        "v": "31f0a66903b71b9d9895c50437be92cb"
                     },
                     {
                         "k": "27297",
@@ -4105,7 +4128,7 @@
                     },
                     {
                         "k": "27302",
-                        "v": "9fd687fb1eabe9ad4c47e4924eccebd8"
+                        "v": "06ed7c4f5f5a6ed268cda13941fb71d1"
                     },
                     {
                         "k": "27303",
@@ -4113,7 +4136,7 @@
                     },
                     {
                         "k": "27306",
-                        "v": "2b556e5119bac802aeaf539c7abd6bf8"
+                        "v": "fb42fe463d7c1cfa811abbce2ea3929d"
                     },
                     {
                         "k": "27307",
@@ -4138,14 +4161,18 @@
                     {
                         "k": "27312",
                         "v": "c915237e8a2ddc491b451703229a2bd8"
+                    },
+                    {
+                        "k": "27313",
+                        "v": "1c7df75722022f46d976a2fb3267fca1"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-03-25T10:25:17",
+                        "lastModified": "2022-03-25T11:04:05",
                         "name": "Public",
-                        "hash": "a4fdcd7eaeb455c7f8c14dc2351d8a4d",
+                        "hash": "7a588cd3deb2250b39bf68663ed49c73",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -4158,7 +4185,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-03-24T19:57:58",
                                 "name": "Confetti VFX Resources",
-                                "hash": "98aac1a17e5c392bd46784c0fe29b279",
+                                "hash": "4bc91a5edd9fcafaa0bbe8a14e553c16",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4169,9 +4196,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-03-25T10:05:07",
+                                        "lastModified": "2022-03-25T10:25:19",
                                         "name": "VFX",
-                                        "hash": "25519c5a906861cdb9bfcdc9ca5a550c",
+                                        "hash": "86d40333a03fd56979661f7fe54bce14",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -4182,9 +4209,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-03-25T10:05:07",
+                                                "lastModified": "2022-03-25T10:25:19",
                                                 "name": "Simple Emitter VFX.lsvfx",
-                                                "hash": "01934e9581f55c17f388fbb682dec062",
+                                                "hash": "2b556e5119bac802aeaf539c7abd6bf8",
                                                 "children": ""
                                             }
                                         ]
@@ -4213,10 +4240,17 @@
                                 "children": ""
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2022-03-25T11:04:05",
+                                "name": "FingerPointingPrefab2.oprfb",
+                                "hash": "1c7df75722022f46d976a2fb3267fca1",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
                                 "lastModified": "2022-03-24T19:57:59",
                                 "name": "Fireworks VFX Resources",
-                                "hash": "20a5bb5d6a644dc8d4b5c499610db6ad",
+                                "hash": "d3b091158fcc4fb1577eeee547b03e7d",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4249,15 +4283,15 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-03-25T10:05:07",
+                                        "lastModified": "2022-03-25T10:25:18",
                                         "name": "VFX",
-                                        "hash": "8ac4adf4a1bfa4c6e71f56b5e7d532ba",
+                                        "hash": "39e67cda0455b9d2c5c9d7b9271335b7",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-03-25T10:05:07",
+                                                "lastModified": "2022-03-25T10:25:18",
                                                 "name": "Firework Explosion.lsvfx",
-                                                "hash": "9feb516f06d38f2f4839af46615c3cc1",
+                                                "hash": "88758b16d1ca5b82881e34627ece0e31",
                                                 "children": ""
                                             },
                                             {
@@ -4289,7 +4323,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-03-24T19:57:57",
                                 "name": "Info Card [DELETE_ME]",
-                                "hash": "a4dca606ddde1cf3ec926f3cfb3498a4",
+                                "hash": "1ad1f3b8ae48f9458da4cc98cf4470dc",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4329,9 +4363,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-03-25T10:05:07",
+                                        "lastModified": "2022-03-25T10:25:19",
                                         "name": "Materials",
-                                        "hash": "d08876e4931e414e5262591ca5493503",
+                                        "hash": "71cdf7dcb01aad0ded5d5e7e5eb74a00",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -4342,9 +4376,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-03-25T10:05:07",
+                                                "lastModified": "2022-03-25T10:25:19",
                                                 "name": "info_card.lsmat",
-                                                "hash": "1774ad41e0ded0d67767a14d34a62614",
+                                                "hash": "9fd687fb1eabe9ad4c47e4924eccebd8",
                                                 "children": ""
                                             }
                                         ]
@@ -4375,9 +4409,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-25T10:05:07",
+                                "lastModified": "2022-03-25T10:25:18",
                                 "name": "Materials",
-                                "hash": "5cf8b77eed4f537d97f2999c9a792255",
+                                "hash": "42221356ef79fbe4f6b245ab628afe33",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4388,51 +4422,51 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T10:05:06",
+                                        "lastModified": "2022-03-25T10:25:18",
                                         "name": "Hand Outline.lsmat",
-                                        "hash": "243fb4bcf98b12c923571a1d1f73e906",
+                                        "hash": "ed6cfaf94903e9e88fc72e7dbbc00999",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T10:05:06",
+                                        "lastModified": "2022-03-25T10:25:18",
                                         "name": "Index Finger Color.lsmat",
-                                        "hash": "cd05fba28d1ccf2c714385aab4cf4ffb",
+                                        "hash": "ad720b53acfc368c97c1c180bd0dba3a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T10:05:06",
+                                        "lastModified": "2022-03-25T10:25:18",
                                         "name": "Mid Finger Color.lsmat",
-                                        "hash": "2d650ba6e95e57e297de2b9e07e34f33",
+                                        "hash": "31ba5aace5acaa7d491f03bd016e13dd",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T10:05:07",
+                                        "lastModified": "2022-03-25T10:25:18",
                                         "name": "Pinky Color.lsmat",
-                                        "hash": "578de21e54caad755f1f390d13f7e481",
+                                        "hash": "02ed44b7f2ba5873747e22ec119aa670",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T10:05:07",
+                                        "lastModified": "2022-03-25T10:25:18",
                                         "name": "Ring Finger Color.lsmat",
-                                        "hash": "9561fa470a8319f24505c7f71bdbe2c9",
+                                        "hash": "bb46eb978aa7be7064ceeaaeded04158",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T10:05:06",
+                                        "lastModified": "2022-03-25T10:25:18",
                                         "name": "Thumb Color.lsmat",
-                                        "hash": "b0b7825b85fddafaf973289fd9a1d570",
+                                        "hash": "24bdd24ef6ee9a15370f5ac123daa974",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-25T10:05:07",
+                                        "lastModified": "2022-03-25T10:25:18",
                                         "name": "Wrist Color.lsmat",
-                                        "hash": "c5ff04584b8c1ac136d687568fe2bd49",
+                                        "hash": "c613edd694c992317f604486f79a258c",
                                         "children": ""
                                     }
                                 ]
@@ -7103,6 +7137,20 @@
                         "publicId": "27312",
                         "source": "",
                         "additional": ""
+                    },
+                    {
+                        "name": "FingerPointingPrefab2",
+                        "type": "12",
+                        "subtype": "-1",
+                        "resourceId": "371",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1648220633502558:53558",
+                        "fileId": "599",
+                        "originalId": "600",
+                        "publicId": "27313",
+                        "source": "",
+                        "additional": ""
                     }
                 ]
             }
@@ -7111,7 +7159,7 @@
             "selection": {
                 "resources": [
                     {
-                        "uid": "1648218298322501:51376",
+                        "uid": "1648220633502558:53558",
                         "path_list": [
                             "Prefab"
                         ]
@@ -7558,7 +7606,7 @@
                     {
                         "k": "1648167691718715:55119",
                         "v": {
-                            "prefab": "1648218298322501:51376",
+                            "prefab": "1648220633502558:53558",
                             "isActive": "true",
                             "mapping": [
                                 {
