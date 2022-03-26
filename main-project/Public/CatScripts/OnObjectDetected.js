@@ -4,10 +4,12 @@
 //@input SceneObject pointerObjectTrackingHint = null
 //@input SceneObject goodAnimation = null
 //@input Component.AudioComponent goodSound = null
+//@input SceneObject goodText = null
 //@input SceneObject badAnimation1 = null
 //@input SceneObject badAnimation2 = null
 //@input Component.AudioComponent badSound = null
 
+const StartDetectingWithoutPointing = false
 const DisableDetectionStates = false
 
 const CupClass = 1
@@ -37,7 +39,8 @@ var isDoingNegativeReinforcement = false
 
 function resetReinforcements() {
     if (!isDoingPositiveReinforcement) {
-        if (script.goodAnimation) script.goodAnimation.enabled = false    
+        if (script.goodAnimation) script.goodAnimation.enabled = false
+        if (script.goodText) script.goodText.enabled = false
     }
     if (!isDoingNegativeReinforcement) {
         if (script.badAnimation1) script.badAnimation1.enabled = false
@@ -48,6 +51,8 @@ function resetReinforcements() {
 function doPositiveReinforcement() {
     if (script.goodAnimation) script.goodAnimation.enabled = true
     else print("script.goodAnimation undefined")
+    
+    if (script.goodText) script.goodText.enabled = true
     
     if (script.goodSound && !script.goodSound.isPlaying())
         script.goodSound.play(1)
@@ -135,7 +140,7 @@ function onFrameUpdateEvent(e) {
         return
     }
     
-    if (script.onPointerEventScript.api.isPointing) {
+    if (script.onPointerEventScript.api.isPointing || StartDetectingWithoutPointing) {
         if (!isPointing) {
             print("Setting isPointing = true")
         }
