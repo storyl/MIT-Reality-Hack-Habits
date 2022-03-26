@@ -109,14 +109,27 @@ function updateObjectDetectionState() {
     continueReinforcements()
 
     if (script.pointerObjectTrackingHint) {
-        script.pointerObjectTrackingHint.enabled = !isObjectDetectionOn
+        if (isObjectDetectionOn) {
+            script.pointerObjectTrackingHint.enabled = false
+        }
+        else {
+            script.pointerObjectTrackingHint.enabled = !isObjectDetectionOn
+                && !isDoingPositiveReinforcement
+                && !isDoingNegativeReinforcement
+        }
     }
     else {
         print("script.pointerObjectTrackingHint undefined")
     }  
 }
 
+var frameCount = 0
+
 function onFrameUpdateEvent(e) {
+    if (frameCount % 2 != 0) {
+        return
+    }
+    
     if (script.onPointerEventScript === undefined) {
         print("onPointerEventScript is undefined")
         return
